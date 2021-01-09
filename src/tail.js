@@ -1,7 +1,7 @@
-const tail = (arr) => {
-    if(arr.length == 0)
+const tail = (array) => {
+    if(array.length == 0)
       return undefined; 
-    arr.shift();  
-    return arr;
+    array.shift();  
+    return array;
 }
 module.exports = tail;
