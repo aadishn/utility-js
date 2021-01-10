@@ -1,4 +1,3 @@
-const mapper = require('./map');
 const map = require('./map');
 
 describe('Map', () => {
